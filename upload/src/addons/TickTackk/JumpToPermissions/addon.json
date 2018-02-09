@@ -1,0 +1,14 @@
+{
+    "legacy_addon_id": "JumpToPerms",
+    "title": "Jump To Permissions",
+    "description": "This add-on allows you to quickly switch between permission interface.",
+    "version_id": 2000070,
+    "version_string": "2.0.0",
+    "dev": "TickTackk",
+    "dev_url": "https://twitter.com/t1cktackk",
+    "faq_url": "",
+    "support_url": "",
+    "extra_urls": [],
+    "require": [],
+    "icon": "fa-chevron-circle-down fa-flip-vertical"
+}
