@@ -5,5 +5,5 @@
     "enabled": true,
     "action": "str_replace",
     "find": "<xf:macro name=\"quick_set_menu\" arg-type=\"global\" arg-target=\"#permGroup-{$interfaceGroupId}\" />",
-    "replace": "$0\n\t\t\t\t\t\t<xf:button class=\"button--link menuTrigger\" data-xf-click=\"menu\" aria-expanded=\"false\" aria-haspopup=\"true\">{{ phrase('jumpToPermissions_jump_to...') }}</xf:button>\n\t\t\t\t\t\t<xf:macro template=\"jumpToPermissions_permission_macros\" name=\"jump_to_menu_global\" arg-interfaceGroups=\"{$interfaceGroups}\" />"
+    "replace": "$0\n\t\t\t\t\t\t<xf:button class=\"button--link menuTrigger\" data-xf-click=\"menu\" aria-expanded=\"false\" aria-haspopup=\"true\">{{ phrase('jumpToPermissions_jump_to...') }}</xf:button>\n\t\t\t\t\t\t<xf:macro template=\"tckJumpToPermissions_permission_macros\" name=\"jump_to_menu_global\" arg-interfaceGroups=\"{$interfaceGroups}\" />"
 }
